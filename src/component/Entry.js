@@ -15,7 +15,10 @@ const Entry = () => {
                 </div>
                 <div className="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
                     <label for="" className="form-label">Category</label>
-                    <input type="text" className="form-control"/>
+                    <select name="" id="" class="form-control">
+                     <option value="">Veg</option>
+                     <option value="">Non Veg</option>
+                </select>
                 </div>
                 <div className="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
                     <label for="" className="form-label">Description</label>
