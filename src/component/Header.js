@@ -12,8 +12,8 @@ const Header = () => {
     </button>
     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
       <div class="navbar-nav">
-        <a class="nav-link active" aria-current="page" href="#">Home</a>
         <Link class="nav-link" to='/'>Entry</Link>
+        <Link class="nav-link" to='/search'>Search</Link>
       </div>
     </div>
   </div>
